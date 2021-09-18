@@ -1,0 +1,180 @@
+.navList{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  .navListItems{
+    margin:10px;
+    margin-top: 5px;
+    font-size: 18px;
+    padding:10px;
+    
+  }
+  .active{
+    border-radius: 5px;
+    margin:10px;
+    margin-top: 5px;
+    font-size: 18px;
+    padding:10px;
+    border: 1px solid #FF9C08;
+  }
+  .absolute{
+    position:absolute;
+  }
+  .navBar{
+      justify-content: center;
+      width: 100%;
+      z-index: 100;
+  }
+  .bg0{
+    z-index: -1;
+    height: 100vh;
+    overflow: hidden;
+  }
+  .banner{
+    display:block;
+    position:fixed;
+    margin-right:30px;
+    z-index:100;
+    right:0;
+    width: 200px;
+    height:240px
+  }
+  .logo{
+    width: 120px;
+    height: 80px;
+    align-self: center;
+    position: relative;
+  }
+  .relevent{
+    position: relative;
+  }
+  .col-sm-12{
+    max-width: 50%;
+  }
+  .bgsize{
+    height: 235px;
+    width: 100%;
+    z-index: 98;
+  }
+  .bgsize2{
+    height: 220px;
+    width: 100%;
+    z-index: 99;
+  }
+  .navMob{
+    display: none;
+  }
+  .mobNavList{
+    display: none;
+  }
+  @media only screen and (max-width: 450px) {
+    .bgsize{
+      height: 120px !important;
+      width: 100%;
+      z-index: 98;
+    }
+    .banner{
+      display: none;
+    }
+    .navBar{
+      display: none;
+    }
+    .bgsize2{
+      height: 110px !important;
+      width: 100%;
+      z-index: 99;
+    }
+    .bg1{
+      height: 50px !important;
+    }
+    .col-sm-12{
+      max-width: 100%;
+    }
+    .logo{
+      width: 80px;
+      height: 40px;
+    }
+    .mt-sm{
+      margin-top: 50px;
+    }
+    
+  }
+  @media only screen and (max-width: 850px){
+    .bgsize{
+      height: 155px;
+      width: 100%;
+      z-index: 98;
+    }
+    .banner{
+      display: none;
+    }
+    .navBar{
+      display: none;
+    }
+    .bgsize2{
+      height: 145px;
+      width: 100%;
+      z-index: 99;
+    }
+    .mobbgsize{
+      height: 455px;
+      width: 100%;
+      z-index: 98;
+    }
+    .mobbgsize2{
+      height: 445px;
+      width: 100%;
+      z-index: 99;
+    }
+    .navMob{
+      display: inline-block;
+    }
+    .mobNavBar{
+      padding-top: 5px;
+      width: 100%;
+      z-index: 101;
+      display: flex;
+      justify-content: center;
+      text-align: center;
+    }
+    .icon{
+      font-size: 20px !important;
+    }
+    .navIcon{
+      display: flex;
+      right: 0;
+      padding-top: 20px;
+      padding-right:20px;
+      z-index: 200;
+    }
+    .logo{
+      width: 80px;
+      height: 40px;
+    }
+    .navListItems{
+      font-size:12px;
+    }
+    .active{
+      border-radius: 5px;
+      margin:10px;
+      margin-top: 5px;
+      font-size: 12px;
+      padding:10px;
+      border: 1px solid #FF9C08;
+    }
+    .navListShow{
+      display: inline-block;
+      padding-top: 70px;
+    }
+    .mobNavList{
+      
+      display: none;
+    }
+  }
+  @media only screen and (max-width: 1240px) {
+    
+    .col-sm-12{
+      max-width: 100%;
+    }
+  }

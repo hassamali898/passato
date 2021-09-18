@@ -1,0 +1,108 @@
+html,
+body {
+ 
+  padding: 0;
+  margin: 0;
+  font-family: bevan;
+}
+body{
+  background-color: black;
+}
+ul{
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+}
+li{
+  color: red;
+  list-style: none;
+  background-color: transparent;
+}
+button{
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-family: bevan;
+}
+
+h1{
+  color: #FF9C08;
+  font-size: 90px;
+  margin: 0;
+  padding: 0;
+  line-height: 100px;
+}
+h3{
+  color: #FF9C08;
+  font-size: 50px;
+  margin: 0;
+  padding: 0;
+  line-height: 100px;
+}
+main{
+  margin: 0;
+  padding: 0;
+}
+a,
+div{
+  color: white;
+  background-color: transparent;
+  margin: 0;
+  padding: 0;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+}
+p{
+  margin: 0;
+  margin-top: 2px;
+  font-size: 15px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
+span{
+  color:#FF9C08
+}
+footer{
+  background-color: #FF9C08;
+  font-family: Arial, Helvetica, sans-serif ;
+  color:black;
+}
+h2{
+  margin: 0;
+  color: black;
+}
+h4{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding: 0;
+  margin: 0;
+  color: #FF9C08;
+  font-size: 20px;
+}
+@media only screen and (max-width: 450px) {
+  h1{
+  font-size: 40px;
+  line-height: 40px;
+  }
+  h3{
+    font-size: 35px;
+    line-height: 40px;
+  }
+  div{
+    font-size: 12px;
+  }
+  h2{
+    font-size: 14px;
+  }
+  h4{
+    font-size: 15px;
+  }
+  p{
+    font-size: 10px;
+  }
+}

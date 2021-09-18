@@ -1,0 +1,80 @@
+.Card{
+    width: 100%;
+    height:210px;
+    border-radius: 10px;
+}
+.color{
+    background-color:white;
+}
+.absolute{
+    position: absolute;
+}
+.Cardhover{
+    z-index: 10;
+    background-color: black;
+    opacity: 0;
+}
+.Cardtitle{
+    justify-content: center;
+    display: flex;
+    
+    width: 100%;
+    text-align: center;
+}
+.Cardtitle h2{
+    font-size: 25px;
+}
+.Cardstyle{
+    width: 100%;
+    height:165px;
+    border:3px solid white;
+    border-radius: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.CardImage{
+    background-color: whitesmoke;
+    overflow: hidden;
+    object-position: center;
+    object-fit: cover;
+}
+.img{
+    margin: 0;
+    padding: 0;
+    width:100%;
+    height: 165px;
+    position: absolute;
+}
+.clickArrow{
+    cursor:pointer;
+}
+.Cardhover:hover{
+    opacity: 0.5;
+}
+.padding{
+    margin: 8px;
+}
+.Cardclicked{
+    z-index: 10;
+    background-color: black;
+    opacity: 0.5 !important;
+}
+
+.hideCard{
+    display: none;
+}
+.showCard{
+    margin-top:10px;
+}
+.btn{
+    font-size: 50px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding: 8px 20px 10px 20px;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 100%;
+}
+.relevent{
+    position: relative;
+}
