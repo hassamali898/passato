@@ -1,13 +1,20 @@
 import React from 'react';
 import Image from 'next/image'
+import {Slide} from 'react-slideshow-image'
+import 'react-slideshow-image/dist/styles.css'
 import styles from '../styles/Home.module.css'
-import BackgroundImage from '../public/assets/background.jpg'
 
 const HomeScrean=()=>{
+
     return (
         <>
+        
             <div className={styles.bgGRD}>
-            <Image className={styles.bg0} src={BackgroundImage} layout='fill' objectFit='cover'  objectPosition='right' />
+                <Slide easing="ease" className={styles.slide} arrows={false}>
+                    <div className={styles['image-1']}></div>
+                    <div className={styles['image-2']}></div>
+                    <div className={styles['image-3']}></div>             
+                </Slide>
             <div className={styles.margin}>
                 <div className={styles.container}>
                     <div className={styles["col-6","col-sm-12"]}>

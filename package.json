@@ -17,13 +17,18 @@
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "react-router": "^5.2.1",
-    "react-router-dom": "^5.3.0"
+    "react-router-dom": "^5.3.0",
+    "react-slideshow-image": "^3.5.1",
+    "reactstrap": "^8.10.0"
   },
   "devDependencies": {
     "eslint": "7.32.0",
     "eslint-config-next": "11.1.2"
   },
   "rules": {
-    "@next/next/no-html-link-for-pages": ["error", "/my-app/pages/"]
+    "@next/next/no-html-link-for-pages": [
+      "error",
+      "/my-app/pages/"
+    ]
   }
 }

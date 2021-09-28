@@ -10,7 +10,7 @@ export default (props)=>{
     <footer>
         <div className={styles.footer}>
         <div className={styles.row+" "+styles.center}>
-            <div className={styles['col-4']+" "+styles.center}>
+            <div className={styles['col-6']+" "+styles.center}>
                 <h2>Social Media</h2>
                 <ul className={styles.footerMenu}>
                     <li><div className={styles.row}><div className={styles.footerIcon}><Image src={facebook} layout="responsive"/></div><Link href="/"><a className={styles.footerList}>Facebook</a></Link></div></li>
@@ -19,16 +19,8 @@ export default (props)=>{
 
                 </ul>
             </div>
-            <div className={styles['col-4']+" "+styles.center}>
-                <h2>Explore</h2>
-                <ul className={styles.footerMenu}>
-                    <li><div className={styles.row}><Link href="/"><a className={styles.footerList}>Menu</a></Link></div></li>
-                    <li><div className={styles.row}><Link href="/"><a className={styles.footerList}>Order Online</a></Link></div></li>
-                    <li><div className={styles.row}><Link href="/"><a className={styles.footerList}>Special Offers</a></Link></div></li>
-
-                </ul>
-            </div>
-            <div className={styles['col-4']+" "+styles.center}>
+           
+            <div className={styles['col-6']+" "+styles.center}>
                 <h2>Contact Us</h2>
                 <ul className={styles.footerMenu}>
                 <li><div className={styles.row}><Link href="/"><a className={styles.footerList}>202-462-2100</a></Link></div></li>
@@ -39,7 +31,7 @@ export default (props)=>{
             </div>
             
         </div>
-        <div className={styles.footerBottom}>Copyright 2021 © Passato | All Right Reserved | Website Designed & developed by <Link href="/"><a>Hassam Ali</a></Link></div>
+        <div className={styles.footerBottom}>Copyright 2021 © Passato | All Right Reserved | Powered By <Link href="/"><a>SomeMarketing</a></Link></div>
         </div>
     </footer>
   )
